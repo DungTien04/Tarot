@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="bg_main">@mipmap/bg_main2</drawable>
+    <drawable name="ic_card">@mipmap/ic_card</drawable>
+    <drawable name="bt_reveal">@mipmap/bt_reveal</drawable>
+    <drawable name="ic_death">@mipmap/ic_death</drawable>
+    <drawable name="ic_loves">@mipmap/ic_loves</drawable>
+    <drawable name="ic_maginican">@mipmap/ic_maginican</drawable>
+</resources>

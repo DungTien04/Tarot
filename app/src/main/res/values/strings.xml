@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">BoiBai</string>
+    <string name="txt_hi">Hi</string>
+    <string name="tarot">Tarot</string>
+    <string name="txt_text1">Discover your path with the wisdom of the Tarot</string>
+    <string name="txt_select_text1">Tarot</string>
+    <string name="txt_text2">What are you looking forward</string>
+    <string name="txt_text3">Time to reveal your destiny</string>
+    <string name="txt_select_text3">destiny</string>
+</resources>

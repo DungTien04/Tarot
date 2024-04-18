@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@mipmap/bg_main2"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/tv_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="@font/font_rubik"
+        android:text="3"
+        android:textColor="@color/yelow"
+        android:textSize="50sp"
+        android:visibility="invisible" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/font_rubik"
+            android:gravity="center"
+            android:paddingHorizontal="40dp"
+            android:paddingTop="10dp"
+            android:text="@string/txt_text1"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:visibility="visible" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="80dp"
+            android:gravity="center">
+
+            <ImageView
+
+                android:id="@+id/iv_card1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:layout_weight="1"
+                android:src="@drawable/ic_card"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/iv_card2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/ic_card"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/iv_card3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="1"
+                android:src="@drawable/ic_card"
+                android:visibility="invisible" />
+
+
+        </TableRow>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_reveal"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/bt_reveal"
+        android:visibility="invisible" />
+
+</FrameLayout>
